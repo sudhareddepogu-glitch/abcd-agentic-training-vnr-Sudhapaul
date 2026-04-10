@@ -2,6 +2,24 @@
 
 An intelligent hydration tracking app built with **FastAPI**, **LangChain**, **OpenAI**, and **Streamlit**.
 
+Business Problem
+Dehydration is a silent epidemic. Studies show that 75% of people are chronically dehydrated without realizing it — and dehydration reduces cognitive performance by up to 20%, affects mood, energy levels, and physical endurance.
+Pain PointImpactNo real-time feedbackUsers don't know if they are on track until symptoms appearManual & tedious trackingExisting apps require precise input with no guidanceGeneric, one-size-fits-all adviceTips ignore personal patterns, timing, and daily progressNo intelligent nudgingNo system adapts coaching to what you've actually consumed
+The gap: There is no lightweight, intelligent, open-source tool that combines easy water logging, live data visualization, and a personalized AI coaching layer — all in one app that a developer can run locally in minutes.
+
+Possible Solution:
+
+ApproachProsConsNative mobile app (iOS/Android)Great UX, push notificationsHigh dev cost, app store frictionWearable integration (Apple Watch)Passive, automaticExpensive hardware dependencySimple spreadsheet trackerZero setupNo intelligence, no visualizationFull-stack web app with AI Accessible, intelligent, extensibleRequires local setup
+We evaluated multiple approaches and chose a Python-first full-stack web application because:
+
+It is accessible from any browser with zero app install
+FastAPI gives us a production-grade REST API instantly
+LangChain + OpenAI enables true personalized coaching
+Streamlit eliminates frontend complexity — no HTML/CSS/JS needed
+The entire stack is open source and locally runnable
+
+
+
 ## Project Structure
 
 ```
