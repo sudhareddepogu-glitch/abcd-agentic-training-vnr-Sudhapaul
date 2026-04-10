@@ -1,9 +1,5 @@
 # 💧 AI Water Tracker
 
-An intelligent hydration tracking app built with **FastAPI**, **LangChain**, **OpenAI**, and **Streamlit**.
-
-# 💧 AI Water Tracker
-
 > An intelligent full-stack hydration monitoring app built with **FastAPI**, **LangChain**, **OpenAI GPT**, and **Streamlit** — log your water intake, visualize progress, and get AI-powered coaching in real time.
 
 ---
