@@ -64,6 +64,8 @@ uvicorn backend.main:app --reload --port 8000
 The API will be live at: http://localhost:8000  
 Interactive API docs: http://localhost:8000/docs
 
+recording : https://drive.google.com/drive/u/0/folders/1F7Hut5W2QloScRh9Os5Qz41HWGzcxj-8
+
 ### 6. Start the Streamlit frontend
 
 In a **second terminal** (with the venv activated):
